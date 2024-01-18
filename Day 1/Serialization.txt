@@ -1,0 +1,16 @@
+
+what is 
+types
+Serialization:The process of converting an object into a stream of bytes to store the object to memory,a databse or a file.
+Types:
+
+1.XML Serialization
+2.Binary Serializtaion
+3.SOAP Serialization
+Difference between each type of Serialization:
+
+1.XML Serialization: In XML serialization only the public properties and fields of the objects are converted into XML.The private members are not taken into 
+consideration in XML serialization
+2.Binary Serialization:
+
+

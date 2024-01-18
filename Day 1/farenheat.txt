@@ -1,0 +1,54 @@
+using System;
+
+public class Square{
+    int num;
+    int square;
+    
+    public void GetNumber()
+    {
+        Console.WriteLine("Enter number");
+        num = Convert.ToInt32(Console.ReadLine());
+    
+    }
+    
+    public void PrintSquare()
+    {
+        square = num*num;
+        Console.WriteLine($"Square of {num} is {square}");
+        
+    }
+}
+
+public class Centi{
+    int a, F;
+    
+    public void Get()
+    {
+        Console.WriteLine("enter temp: ");
+        a = Convert.ToInt32(Console.ReadLine());
+        
+    }
+    public void print()
+    {
+        F=(a*9/5)+32;
+        Console.WriteLine($"Temp of {a} in {F}");
+    }
+}
+
+
+    class Details{
+        public static void Main(string[] args){
+        //     Square n1 = new Square();
+        //     n1.GetNumber();
+        //     n1.PrintSquare();
+        // Centi c1 = new Centi();
+        // c1.Get();
+        // c1.print();
+        
+        
+    }
+    
+}
+
+
+
